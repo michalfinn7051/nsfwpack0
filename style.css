@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #343434;
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    height: 40px;
+    widows: 100%;
+    background: rgb(241, 247, 253);
+    box-shadow: 1px 1px rgb(217, 215, 215);
+    position: relative;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.main {
+    height: 100%;
+    width: 95%;
+    margin: 4.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #e0e0e0;
+    overflow: hidden;
+    background: #fff;
+    margin: 1%;
+}
+
+.box .preview {
+    height: 50%;
+    width: 100%;
+}
+
+.preview img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box .content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box .content h3 {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.box .content h4 {
+    margin: 2.5px 0px 1px 20px;
+    font-size: 15px;
+}
+
+.box .content .download {
+    height: 40px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    background: rgb(187, 0, 255);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.download a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    font-weight: 500;
+    color: #818181;
+    margin-right: 20px;
+}
